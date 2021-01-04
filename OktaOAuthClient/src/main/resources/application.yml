@@ -1,0 +1,14 @@
+# ClientID and Client Secret --> same as server's
+# also, Okta issuer URL --> it’s gonna look something like this: dev-123456.okta.com
+# You can find it under API > Authorization Servers.
+
+server:
+  port: 8080
+okta:
+  oauth2:
+    issuer: https://dev-3573150.okta.com/oauth2/default
+    client-id: 0oaluzu9dUZ1ybZsB5d5
+    client-secret: WAhumBqk05Vq_e9LGfM9IS3a3N5dWc_0uPjnscj1
+spring:
+  thymeleaf:
+    cache: false
