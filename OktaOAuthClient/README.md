@@ -16,4 +16,8 @@
  
 ###   Leave the page open and take note of the Client ID and Client Secret.
 
+-    Navigate to http://localhost:8080
+
+This time you’ll be directed to the Okta login page. You may need to use an incognito browser or log out of your developer.okta.com dashboard here so that you don’t skip the login page and get directed immediately to the secured endpoint.
+
 [Okta | The Identity Standard](https://developer.okta.com/blog/2019/03/12/oauth2-spring-security-guide)
